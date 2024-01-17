@@ -1,0 +1,37 @@
+<mxfile host="65bd71144e">
+    <diagram id="WLLnHuvVn_JX-juUJ3k9" name="Page-1">
+        <mxGraphModel dx="1697" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Command Interface&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="160" width="400" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Fault&amp;nbsp;&lt;br&gt;Control" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Reporter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="OTA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Controller" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="360" width="400" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Driver&lt;br&gt;(HAL)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="460" width="400" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Motor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="550" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="ADC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="550" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Accelerator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="550" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
