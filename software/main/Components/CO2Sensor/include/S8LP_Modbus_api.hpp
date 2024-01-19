@@ -95,11 +95,11 @@ class friend_S8LP_Modbus_api
   public:
 	explicit friend_S8LP_Modbus_api(S8LP_Modbus_api* S8LP_Modbus_api)
 		: m_sensor{S8LP_Modbus_api} {};
-	bool test_status(const std::string& str)
+	bool test_status(std::vector<uint8_t>& vec)
 	{
-		return m_sensor->processStatus(str);
+		return m_sensor->processStatus(vec);
 	}
-	uint16_t test_value(const std::string& str)
+	uint16_t test_value(std::string& str)
 	{
 		return m_sensor->processValue(str);
 	}

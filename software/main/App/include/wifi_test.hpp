@@ -49,6 +49,7 @@ class wifi_test {
       wifi_test(void);
       virtual ~wifi_test();
         bool run();
+        bool run_http_server();
       };
 
 

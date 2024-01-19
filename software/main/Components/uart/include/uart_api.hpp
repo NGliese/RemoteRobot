@@ -89,10 +89,7 @@ class friend_uart_api
 {
   public:
 	explicit friend_uart_api(uart_api* uart_api) : m_sensor{uart_api} {};
-	uart_api::config getConfig(void)
-	{
-		return *(m_sensor->m_config);
-	}
+
 	std::string getHiddenString(void)
 	{
 		return (m_sensor->hidden_string);

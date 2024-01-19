@@ -10,6 +10,8 @@ set(LIBNAME HTTP)
 
 
 set(COSTUM_SRC_FILES ${COSTUM_SRC_FILES} "${CMAKE_CURRENT_LIST_DIR}/src/esp32_http_sal.cpp;" CACHE STRING "avaliable build src" FORCE)
+set(COSTUM_SRC_FILES ${COSTUM_SRC_FILES} "${CMAKE_CURRENT_LIST_DIR}/src/esp32_http_server.cpp;" CACHE STRING "avaliable build src" FORCE)
+
 
 set(COSTUM_INC_FILES ${COSTUM_INC_FILES} "${CMAKE_CURRENT_LIST_DIR}/include" CACHE STRING "avaliable build inc" FORCE)
 

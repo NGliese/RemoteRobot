@@ -23,10 +23,9 @@ extern "C" void app_main(void)
   //  plc_mock plc;
   //  plc.run();
     std::cout << "Hello World!\n";
-    //wifi_test wifi;
-    //wifi.run();
-    static moist_sensor moist;
-    moist.run();
+    wifi_test wifi;
+    wifi.run_http_server();
+  
     //air_sensor air;
     //air.run();
 
